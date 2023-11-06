@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* container is organized in columns*/
+    justify-content: center;
+    /* container is in the center */
+    align-items: center;
+    /*aligned by default in a center position */
+    height: 100vh;
+}
+
+.emoji{
+    font-size: 10rem;
+    /* what does cursor pointer mean?*/
+    cursor: pointer; 
+    /*the cursor property defines that the pointer is visible when it is over an element*/
+    user-select: none;
+    /*defines whether the text can be selected when clicking on it*/
+}
+
+.closed{
+    /*defines the layout of the elements ex.: display: block = properties in blocks */
+    display: none;
+}
+
+.open{
+    display: none;
+}
+
+.active{
+    display: block;
+}
